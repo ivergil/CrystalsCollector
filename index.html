@@ -33,8 +33,7 @@
                         </p>
                         <p class="card-text text-justify">
                             The value of each crystal is hidden from you until you click on it.
-                            The value of the crystals changes for every game and you must figure out their values on
-                            your own.
+                            Each times when the game starts, the game will change the values of each crystal.
                         </p>
 
                     </div>
@@ -43,40 +42,44 @@
         </div>
         <div class="row mt-2">
             <div class="card col-lg-2 ">
-                <h5 class="card-header bg-warning text-center text-white">MATCH NUMBER:</h5>
-                <h6 class="card-body text-center pt-5 match">10</h6>
+                <h5 class="card-header bg-warning text-center text-white mt-2">MATCH NUMBER:</h5>
+                <h6 class="card-body text-center pt-5 match">0</h6>
             </div>
             <div class="card col-lg-8 ">
                 <div class="row">
                     <div class="card col-lg-3">
-                        <img src="/assets/images/gem-clipart-3.png " alt="">
+                        <img id="crystal-1" src="/assets/images/gem-clipart-3.png " alt="">
                     </div>
                     <div class="card col-lg-3">
-                        <img src="/assets/images/pink-diamond-1056757_960_720.png" alt="">
+                        <img id="crystal-2" src="/assets/images/pink-diamond-1056757_960_720.png" alt="">
                     </div>
                     <div class="card col-lg-3">
-                        <img src="/assets/images/jewel.png" alt="">
+                        <img id="crystal-3" src="/assets/images/jewel.png" alt="">
                     </div>
                     <div class="card col-lg-3">
-                        <img src="/assets/images/DiamondBlue-512.png" alt="">
+                        <img id="crystal-4" src="/assets/images/DiamondBlue-512.png" alt="">
                     </div>
                 </div>
                 <div class="row">
                     <div class="card col-lg-6 mt-2">
-                        <h5 class="card-header bg-danger text-center text-white">WINS:</h5>
-                        <h6 class="card-body text-center wins">10</h6>
+                        <h5 class="card-header bg-danger text-center text-white mt-2">WINS:</h5>
+                        <h6 class="card-body text-center wins">0</h6>
                     </div>
                     <div class="card col-lg-6 mt-2">
-                        <h5 class="card-header bg-warning text-center text-white">LOSSES:</h5>
-                        <h6 class="card-body text-center wins">10</h6>
+                        <h5 class="card-header bg-warning text-center text-white mt-2">LOSSES:</h5>
+                        <h6 class="card-body text-center losses">0</h6>
                     </div>
                 </div>
+                
             </div>
 
             <div class="card col-lg-2">
                 <h5 class="card-header bg-success text-center text-white">YOUR SCORE:</h5>
-                <h6 class="card-body text-center pt-5 score">888</h6>
+                <h6 class="card-body text-center pt-5 score">0</h6>
             </div>
+        </div>
+        <div>
+            <a name="" id="btn-reset" class="btn btn-primary mt-2" href="#" role="button">Reset Game</a>
         </div>
     </div>
     <script src="/assets/javascript/crystal.js"></script>
