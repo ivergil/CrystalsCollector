@@ -6,7 +6,6 @@ $(document).ready(function () {
     var matchRandom = 0;
     var crystals = ["", "", "", ""];
 
-
     function initGame() {
         generateRandoms();
         total = 0;
@@ -20,7 +19,6 @@ $(document).ready(function () {
         }
         matchRandom = (Math.floor(Math.random() * 101) + 19);
         $(".match").html(matchRandom);
-        // console.log(matchRandom);
     }
 
     $("#crystal-1").on("click", function () {
