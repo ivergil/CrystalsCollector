@@ -15,7 +15,7 @@ $(document).ready(function () {
         for (let i = 0; i < crystals.length; i++) {
             crystals[i] = (Math.floor(Math.random() * 12) + 1);
             let x = i + 1;
-            console.log("Crystal " + x + " = " + crystals[i]);
+            // console.log("Crystal " + x + " = " + crystals[i]);
         }
         matchRandom = (Math.floor(Math.random() * 101) + 19);
         $(".match").html(matchRandom);
